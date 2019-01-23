@@ -36,13 +36,17 @@ print (listValue[3:])
 print (listValue[0:2])
 print (listValue)
 print (listValue + listValue)
-print (listValue * 3)
+print (listValue * 3) #show 3th times
 
 #tuple similar to the list. but cannot be updated and use () not []
 tupleVar = (100,200,300, "number")
 print(tupleVar)
 #tupleVar[0] = (123, "value") # Error
-print(tupleVar)
+print(tupleVar) #same output because cann't update.
+print (tupleVar[3:])
+print (tupleVar[0:2])
+print (tupleVar + tupleVar)
+print (tupleVar * 4) #print 4th times
 
 #Dictionary is an ordered set of a key-value pair of items. It is like an associative
 # array or a hash table where each key stores a specific value
@@ -56,10 +60,5 @@ tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
 print(tinydict) # Prints complete dictionary
 print(tinydict.keys()) # Prints all the keys
 print(tinydict.values()) # Prints all the values
-
-
-
-
-
 
 
