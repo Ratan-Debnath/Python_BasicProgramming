@@ -26,4 +26,12 @@ if expression:
 else:
    statement(s)
 """
+
+#Ceck Odd-Even number
+number = int(input("Enter the number:"))
+if number  %2 == 0 :
+    print("Number is even")
+else:
+    print("Number is Odd")
+    
 # if-else statement is similar to if statement except the fact that, it also provides the block of the code for the false case of the condition to be checked. If the condition provided in the if statement is false, then the else statement will be executed. @javapoint
