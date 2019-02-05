@@ -25,3 +25,9 @@ if greeting == "hi" or greeting == "good bye":
 greeting = "hi"
 if  not greeting == "good bye":
     print("hi! I am Ratan")
+#Check this
+year = int(input("Enter the year:"))
+if year  == 1971 :
+    print("Birth Year of Bangladesh")
+    
+    
